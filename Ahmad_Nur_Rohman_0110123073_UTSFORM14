@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS PemWeb</title>
+</head>
+<body>
+    
+    <!-- fieldset & legend -->
+    <fieldset>
+        <legend>Form Registrasi Rekreasi Kuliner</legend>
+        <div style="display: flex;">
+            <!-- aside -->
+            <aside style="margin-left: 120px;">
+                <form action="" method="POST">
+                    <table>
+                        <tr>
+                            <td>Nama Tempat Wisata:</td>
+                            <td>
+                                <input type="text" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Wisata :</td>
+                            <td>
+                                <select>
+                                    <option value="berenang">Kedai Kopi</option>
+                                    <option value="membaca">Kedai Tea</option>
+                                    <option value="basket">Kedai Teh Jaya Abadi</option>
+                                    <option value="putsal">Gubuk Gurame</option>
+                                    <option value="terbang">Soto Special Boyolali</option>
+                                </select>
+                        <tr>
+                            <td>Deskripsi Wisata:</td>
+                            <td><textarea name="description" placeholder="Enter Description" cols="30" rows="5">                               
+                            </textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Kontak Person:</td>
+                            <td>
+                                <input type="text" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>No.HP/Telepon:</td>
+                            <td>
+                                <input type="text" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td>
+                                <input type="text" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Alamat Web:</td>
+                            <td><input type="text" name="web" placeholder="https://"></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat Lengkap:</td>
+                            <td>
+                                <input type="text" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Latitude,Logitude:</td>
+                            <td>
+                                <input type="text" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="proses" value="daftar"
+                            style="box-shadow: 4px 3px 2px black; background-color: green; color: white;"    ></td>
+                            <td><input type="reset" name="unproses" value="batal" 
+                                style="box-shadow: 4px 3px 2px black; background-color: red; color: white; "></td> 
+                            
+                        </tr>
+                    </table>
+                    </form>
+                    </aside>
+                    
+                        
+    
+</body>
+</html>
